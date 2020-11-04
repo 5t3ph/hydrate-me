@@ -1,0 +1,30 @@
+{
+  "name": "hydrate-me",
+  "version": "1.0.0",
+  "description": "Get hydrated by appending this to watch commands for reminders set at a custom interval.",
+  "bin": {
+    "hydrate-me": "bin/hydrate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5t3ph/hydrate-me.git"
+  },
+  "keywords": [
+    "hydrate",
+    "personal",
+    "health",
+    "wellness"
+  ],
+  "author": {
+    "name": "5t3ph",
+    "url": "https://thinkdobecreate.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5t3ph/hydrate-me/issues"
+  },
+  "homepage": "https://github.com/5t3ph/hydrate-me#readme",
+  "dependencies": {
+    "yargs-parser": "^20.2.3"
+  }
+}
