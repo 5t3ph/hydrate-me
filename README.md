@@ -1,6 +1,6 @@
 # Hydrate Me
 
-> Get hydrated by appending this to watch commands for reminders set at a custom interval.
+> Get hydrated by running this solo or appending to a watch type of command for reminders at your chosen minute interval.
 
 The following will be output in your Terminal at each interval:
 
