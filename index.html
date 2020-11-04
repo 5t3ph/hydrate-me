@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hydrate Me!</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      * + * {
+        margin-top: 1.5em;
+      }
+
+      body {
+        display: grid;
+        place-content: center;
+        background-color: darkblue;
+        color: #fff;
+        text-align: center;
+        font-family: system-ui, sans-serif;
+        min-height: 100vh;
+        padding: 1rem;
+      }
+
+      main {
+        display: grid;
+        justify-items: center;
+        margin-top: 5vh;
+      }
+
+      h1 {
+        font-family: "Pacifico";
+        font-weight: normal;
+        font-size: 6rem;
+        line-height: 1.35;
+      }
+
+      p {
+        max-width: 40ch;
+        letter-spacing: 0.01em;
+        font-size: 1.5rem;
+      }
+
+      header p {
+        font-size: 2rem;
+      }
+
+      code {
+        display: block;
+        padding: 0.25em 1em;
+        background-color: rgba(255, 255, 255, 0.15);
+        border: 1px dotted rgba(255, 255, 255, 0.3);
+        border-radius: 0.5em;
+        font-size: 1.25rem;
+      }
+      code:first-of-type {
+        font-size: 1.75rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Hydrate Me!</h1>
+      <p>
+        Get hydrated by appending this to watch commands for reminders set at a
+        custom interval.
+      </p>
+    </header>
+    <main>
+      <code>npm install hydrate-me</code>
+      <p><em>Example usage:</em></p>
+      <code> "start": "your-script --watch & hydrate-me --interval 30" </code>
+    </main>
+  </body>
+</html>
