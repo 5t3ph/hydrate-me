@@ -1,7 +1,11 @@
 {
   "name": "hydrate-me",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get hydrated by appending this to watch commands for reminders set at a custom interval.",
+  "homepage": "https://5t3ph.github.io/hydrate-me/",
+  "scripts": {
+    "bump": "npm --no-git-tag-version version"
+  },
   "bin": {
     "hydrate-me": "bin/hydrate.js"
   },
@@ -23,7 +27,6 @@
   "bugs": {
     "url": "https://github.com/5t3ph/hydrate-me/issues"
   },
-  "homepage": "https://github.com/5t3ph/hydrate-me#readme",
   "dependencies": {
     "yargs-parser": "^20.2.3"
   }

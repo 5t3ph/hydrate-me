@@ -18,7 +18,9 @@ First, install the package:
 npm install hydrate-me
 ```
 
-Then, append it to your watch commands, example (with a custom interval);
+The default `--interval` is 15 minutes, which you may set to another number to represent a different minute interval.
+
+Then, append it to your watch commands, example with a custom interval;
 
 ```bash
 "start": "your-script --watch & hydrate-me --interval 30"
